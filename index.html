@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<style>
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-image: url(homebackground.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar{
+        display: inline-block;
+        margin: 0 500px;
+        padding: 10px;
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        margin: 0 10px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        colour : black;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    .navbar li button{
+        border: none;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    transition-duration: 0.4s;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    }
+
+    .navbar li button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: black;
+        color: white  ;
+    }
+    .content{
+        width: 663px;
+        height: 100px;
+    
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        color: black;
+        text-decoration: solid;
+        font-size: 60px;
+        font-family: font-family: "Lucida Console", "Courier New", monospace;;
+}
+.navbar li button a{
+    color: black;
+}
+.navbar li button a:hover{
+    transition-duration: 0.4s;
+    color: white;
+}
+
+
+.content2{
+    margin: auto;
+  width: 50%;
+  margin-top: 230px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+
+}
+.content2:hover{
+    color: white;
+}
+.content2 button{
+    border: none;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    transition-duration: 0.4s;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    
+}
+.content2 button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: black;
+  color: white;
+}
+
+    
+</style>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                
+            <li><button><a href="#">Home</a></button></li>
+            <li><button><a href="#">Bedroom</a></button></li>
+            <li><button><a href="#">Kitchen</a></button></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            DESIGN YOUR HOME
+        </div>
+        <div class="content2">
+            Design Your Home With Us
+            <br>
+            <button>LOAD MORE</button>
+            <button>CONTACT US</button>
+        </div>
+
+    </div>
+</body>
+</html>
